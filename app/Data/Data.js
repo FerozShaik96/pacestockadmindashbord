@@ -1,15 +1,15 @@
-import { IoKeyOutline } from "react-icons/io5";
-import { FaRegUser } from "react-icons/fa6";
-import { BiSolidOffer } from "react-icons/bi";
-import { MdOutlineLiveHelp } from "react-icons/md";
-import { CiWallet } from "react-icons/ci";
-import { FaGreaterThan } from "react-icons/fa6";
-import { TbHexagonalPrism } from "react-icons/tb";
 import img1 from "@/public/img1.png";
 import img2 from "@/public/img2.png";
 import img3 from "@/public/img3.png";
 import img4 from "@/public/img4.png";
 import img5 from "@/public/img5.png";
+import prism from "@/public/prism.png";
+import walletMoney from "@/public/walletMoney.png";
+import KeySquare from "@/public/KeySquare.png";
+import message from "@/public/message.png";
+import userSquar from "@/public/userSquar.png";
+import discountShape from "@/public/discountShape.png";
+import chevronRight from "@/public/chevronRight.png";
 export const Data = [
   {
     customerName: "Jane Cooper",
@@ -87,46 +87,46 @@ export const Data = [
 
 export const NavigationData = [
   {
-    icon: <IoKeyOutline />,
+    icon: KeySquare,
     title: "Dashboard",
     outline: true,
     greaterSymbol: false,
-    greateIcon: <FaGreaterThan />,
+    greateIcon: chevronRight,
   },
   {
-    icon: <TbHexagonalPrism />,
+    icon: prism,
     title: "Product",
     outline: true,
     greaterSymbol: true,
-    greateIcon: <FaGreaterThan />,
+    greateIcon: chevronRight,
   },
   {
-    icon: <FaRegUser />,
+    icon: userSquar,
     title: "Customers",
     outline: true,
     greaterSymbol: true,
-    greateIcon: <FaGreaterThan />,
+    greateIcon: chevronRight,
   },
   {
-    icon: <CiWallet />,
+    icon: walletMoney,
     title: "Income",
     outline: false,
     greaterSymbol: true,
-    greateIcon: <FaGreaterThan />,
+    greateIcon: chevronRight,
   },
   {
-    icon: <BiSolidOffer />,
+    icon: discountShape,
     title: "Promote",
     outline: false,
     greaterSymbol: true,
-    greateIcon: <FaGreaterThan />,
+    greateIcon: chevronRight,
   },
   {
-    icon: <MdOutlineLiveHelp />,
+    icon: message,
     title: "Help",
     outline: false,
     greaterSymbol: true,
-    greateIcon: <FaGreaterThan />,
+    greateIcon: chevronRight,
   },
 ];
 
