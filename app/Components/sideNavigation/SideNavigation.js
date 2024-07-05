@@ -3,6 +3,7 @@ import { NavigationData } from "@/app/Data/Data";
 import Image from "next/image";
 import { IoChevronDown } from "react-icons/io5";
 import user from "@/public/user.png";
+import Link from "next/link";
 export default function SideNavigation() {
   return (
     <div className="flex h-[1100px] w-[275px] flex-col justify-between bg-white pe-2 ps-6 pt-8">
@@ -21,15 +22,25 @@ export default function SideNavigation() {
               <li
                 className={`flex items-center justify-between p-2 text-sm ${data.title === "Customers" ? "rounded-lg border-0 bg-indigo-600 text-white" : "text-nav-text"}`}
               >
-                <div className="flex items-center gap-3 ps-1 font-light">
-                  <span
-                    className={`${data.outline ? "border-nav-text rounded-lg border-2 text-xl" : "text-2xl"} p-[2px]`}
-                  >
-                    {data.icon}
+                <Link
+                  href="/"
+                  className="flex items-center gap-3 ps-1 font-light"
+                >
+                  <span className="p-[2px] text-2xl">
+                    <Image
+                      src={data.icon}
+                      alt={data.title}
+                      width={24}
+                      height={24}
+                    />
                   </span>
                   <h1 className="text-xs font-medium">{data.title}</h1>
-                </div>
-                {data.greaterSymbol ? <span>{data.greateIcon}</span> : ""}
+                </Link>
+                {data.greaterSymbol ? (
+                  <Image src={data.greateIcon} alt="greater" />
+                ) : (
+                  ""
+                )}
               </li>
             </ul>
           ))}
@@ -45,7 +56,7 @@ export default function SideNavigation() {
 function BottumNavigation() {
   return (
     <div>
-      <div className="bg-custom-gradient h-36 w-full rounded-2xl border-2 py-4">
+      <div className="h-36 w-full rounded-2xl border-2 bg-custom-gradient py-4">
         <div className="mx-4 mt-2 text-center text-sm">
           <h1 className="mb-3 text-white">
             Upgrade to PRO to get access all Features!
@@ -71,7 +82,7 @@ function User() {
           <p className="text-nav-text">Project Manager</p>
         </div>
       </div>
-      <div className="text-nav-text mt-4">
+      <div className="mt-4 text-nav-text">
         <IoChevronDown />
       </div>
     </div>
