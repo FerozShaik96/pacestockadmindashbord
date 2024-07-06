@@ -89,6 +89,7 @@ export const NavigationData = [
   {
     icon: KeySquare,
     title: "Dashboard",
+    href: "/",
     outline: true,
     greaterSymbol: false,
     greateIcon: chevronRight,
@@ -96,6 +97,7 @@ export const NavigationData = [
   {
     icon: prism,
     title: "Product",
+    href: "/product",
     outline: true,
     greaterSymbol: true,
     greateIcon: chevronRight,
@@ -103,6 +105,7 @@ export const NavigationData = [
   {
     icon: userSquar,
     title: "Customers",
+    href: "/customers",
     outline: true,
     greaterSymbol: true,
     greateIcon: chevronRight,
@@ -110,6 +113,7 @@ export const NavigationData = [
   {
     icon: walletMoney,
     title: "Income",
+    href: "/income",
     outline: false,
     greaterSymbol: true,
     greateIcon: chevronRight,
@@ -117,6 +121,7 @@ export const NavigationData = [
   {
     icon: discountShape,
     title: "Promote",
+    href: "/promote",
     outline: false,
     greaterSymbol: true,
     greateIcon: chevronRight,
@@ -124,6 +129,7 @@ export const NavigationData = [
   {
     icon: message,
     title: "Help",
+    href: "/help",
     outline: false,
     greaterSymbol: true,
     greateIcon: chevronRight,

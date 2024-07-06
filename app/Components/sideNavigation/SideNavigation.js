@@ -23,7 +23,7 @@ export default function SideNavigation() {
                 className={`flex items-center justify-between p-2 text-sm ${data.title === "Customers" ? "rounded-lg border-0 bg-indigo-600 text-white" : "text-nav-text"}`}
               >
                 <Link
-                  href="/"
+                  href={data.href}
                   className="flex items-center gap-3 ps-1 font-light"
                 >
                   <span className="p-[2px] text-2xl">
