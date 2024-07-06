@@ -5,7 +5,7 @@ import img4 from "@/public/img4.png";
 import img5 from "@/public/img5.png";
 import prism from "@/public/prism.png";
 import walletMoney from "@/public/walletMoney.png";
-import KeySquare from "@/public/KeySquare.png";
+import KeySquare from "@/public/keySquare.png";
 import message from "@/public/message.png";
 import userSquar from "@/public/userSquar.png";
 import discountShape from "@/public/discountShape.png";
