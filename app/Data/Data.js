@@ -5,11 +5,11 @@ import img4 from "@/public/img4.png";
 import img5 from "@/public/img5.png";
 import prism from "@/public/prism.png";
 import walletMoney from "@/public/walletMoney.png";
-import KeySquare from "@/public/keySquare.png";
 import message from "@/public/message.png";
 import userSquar from "@/public/userSquar.png";
 import discountShape from "@/public/discountShape.png";
 import chevronRight from "@/public/chevronRight.png";
+import keySquare from "@/public/keySquare.png";
 export const Data = [
   {
     customerName: "Jane Cooper",
@@ -87,7 +87,7 @@ export const Data = [
 
 export const NavigationData = [
   {
-    icon: KeySquare,
+    icon: keySquare,
     title: "Dashboard",
     href: "/",
     outline: true,
