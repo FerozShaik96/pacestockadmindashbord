@@ -8,6 +8,7 @@ export default function Product() {
     <div className="rounded-3xl bg-white py-10">
       <ProductHead />
       <ProductBody />
+      <ProductFooter />
     </div>
   );
 }
