@@ -13,7 +13,7 @@ import chevronRight from "@/public/chevronRight.png";
 export const Data = [
   {
     customerName: "Jane Cooper",
-    compant: "Microsoft",
+    company: "Microsoft",
     phoneNumber: "(205) 555-0118",
     email: "jane@microsoft.com",
     country: "United States",
@@ -22,7 +22,7 @@ export const Data = [
   },
   {
     customerName: "Floyd Miles",
-    compant: "yahoo",
+    company: "yahoo",
     phoneNumber: "(205) 555-0100",
     email: "floyd@yahoo.com",
     country: "kiribati",
@@ -31,7 +31,7 @@ export const Data = [
   },
   {
     customerName: "Ronald Richards",
-    compant: "Adobe",
+    company: "Adobe",
     phoneNumber: "(302) 555-0107",
     email: "ronald@adobe.com",
     country: "Israel",
@@ -40,7 +40,7 @@ export const Data = [
   },
   {
     customerName: "Marvin Mckinney",
-    compant: "Tesla",
+    company: "Tesla",
     phoneNumber: "(252) 555-0126",
     email: "marvin@tesla.com",
     country: "Iran",
@@ -49,7 +49,7 @@ export const Data = [
   },
   {
     customerName: "Jerome Bell",
-    compant: "Google",
+    company: "Google",
     phoneNumber: "(629) 555-0129",
     email: "jerome@google.com",
     country: "Réunion",
@@ -58,7 +58,7 @@ export const Data = [
   },
   {
     customerName: "Kathryn Murphy",
-    compant: "Microsoft",
+    company: "Microsoft",
     phoneNumber: "(406) 555-0120",
     email: "kathryn@microsoft.com",
     country: "Curaçao",
@@ -67,7 +67,7 @@ export const Data = [
   },
   {
     customerName: "Jacob Jones",
-    compant: "Yahoo",
+    company: "Yahoo",
     phoneNumber: "(208) 555-0112",
     email: "jacob@yahoo.com",
     country: "Brazil",
@@ -76,7 +76,7 @@ export const Data = [
   },
   {
     customerName: "Kristin Watson",
-    compant: "Facebook",
+    company: "Facebook",
     phoneNumber: "(704) 555-0127",
     email: "lristin@facebook.com",
     country: "Aland Island",
