@@ -1,8 +1,13 @@
 import { FiSearch, FiChevronDown } from "react-icons/fi";
+import ProductBody from "./ProductBody";
+import Image from "next/image";
+import left from "@/public/left.png";
+import right from "@/public/right.png";
 export default function Product() {
   return (
     <div className="rounded-3xl bg-white py-10">
       <ProductHead />
+      <ProductBody />
     </div>
   );
 }
@@ -23,6 +28,26 @@ function ProductHead() {
           <span className="me-2 text-xs font-semibold text-black"> Newest</span>
           <FiChevronDown />
         </div>
+      </div>
+    </div>
+  );
+}
+
+function ProductFooter() {
+  return (
+    <div className="mt-8 flex items-center justify-between pl-10 pr-20">
+      <h2 className="text-xs text-nav-text">
+        Showing data 1 to 8 of 256k entries
+      </h2>
+      <div className="flex items-center gap-3 text-xs text-Prod-Footer">
+        <Image src={right} alt="right" />
+        <p className="rounded-md bg-violet-900 px-3 py-1 text-white">1</p>
+        <p className="rounded-md bg-slate-300 px-3 py-1">2</p>
+        <p className="rounded-md bg-slate-300 px-3 py-1">3</p>
+        <p className="rounded-md bg-slate-300 px-3 py-1">4</p>
+        <p className="text-xl">...</p>
+        <p className="rounded-md bg-slate-300 px-3 py-1">40</p>
+        <Image src={left} alt="left" />
       </div>
     </div>
   );
